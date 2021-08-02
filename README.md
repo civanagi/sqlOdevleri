@@ -22,7 +22,7 @@ SELECT title, description FROM film;
    SELECT first_name, last_name FROM customer
    WHERE first_name= 'Mary'; 
 ```
-   
+   CEVAP: Smith
      
 ###5 
 ```sql
