@@ -1,12 +1,14 @@
 # sqlOdevleri
-
+```sql
+SELECT title, description FROM film;
+```
 # 1. Ödev
 ###1 ```sql
 select title, description from film; 
-´´´
+```
 ###2 ```sql 
    select * from film
-   where length > 60 and length < 75; ´´´
+   where length > 60 and length < 75; ```
 
 ###3 ```sql
    select * from film
