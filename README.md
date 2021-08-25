@@ -1,6 +1,7 @@
 # Patika.Dev PostgreSql
 
 # 1. Ödev
+
 ###1 
 ```sql
 SELECT title, description FROM film; 
@@ -50,5 +51,25 @@ select * from film
 where (rental_rate in (0.99,2.99,4.99)) and (replacement_cost in (12.99, 15.99 , 28.99) ) ;
 ```
 
+# 3. Ödev
 
-
+###1 
+```sql
+select * from country
+where country like 'A%a' ;
+```
+###2 
+```sql
+select country from country
+WHERE length(country)>=6 AND country like'%n';
+```
+###3
+```sql
+select * from film
+where title ilike '%t%t%t%t%'
+```
+###4 
+```sql
+select * from film
+where title like 'C%' and length>90 and rental_rate=2.99 ;
+```
