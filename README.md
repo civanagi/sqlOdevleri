@@ -73,3 +73,29 @@ where title ilike '%t%t%t%t%'
 select * from film
 where title like 'C%' and length>90 and rental_rate=2.99 ;
 ```
+
+# 4. Ödev
+
+###1
+```sql
+select distinct replacement_cost from film ;
+```
+###2 
+```sql
+select count(distinct replacement_cost) from film ;
+```
+###3
+```sql
+select count(*) from film 
+where title like 'T%' and rating = 'G';
+```
+###4 
+```sql
+select count(*) from country 
+where country like '_____'; 
+```
+###5 
+```sql
+select count(*) from city 
+where city ilike '%r';
+```
