@@ -1,10 +1,5 @@
 # Patika.Dev PostgreSql
-[ÖDEV 1](https://github.com/civanagi/sqlOdevleri/main/README.md#%C3%B6dev-1)<br/>
-[ÖDEV 2](https://github.com/civanagi/sqlOdevleri/main/README.md#%C3%B6dev-2)<br/>
-[ÖDEV 3](https://github.com/civanagi/sqlOdevleri/main/README.md#%C3%B6dev-3)<br/>
-[ÖDEV 4](https://github.com/civanagi/sqlOdevleri/main/README.md#%C3%B6dev-4)<br/>
-[ÖDEV 5](https://github.com/civanagi/sqlOdevleri/main/README.md#%C3%B6dev-5)<br/>
-[ÖDEV 6](https://github.com/civanagi/sqlOdevleri/main/README.md#%C3%B6dev-6)<br/>
+
 ## 1. Ödev
 
 ### 1 
