@@ -124,3 +124,24 @@ where store_id=1
 order by last_name desc
 limit 4;
 ```
+# 6. Ödev
+
+### 1
+```sql
+select avg(rental_rate) from film ;
+```
+### 2 
+```sql
+SELECT COUNT(*) FROM film 
+WHERE title LIKE 'D%' ;
+```
+### 3
+```sql
+SELECT max(length) FROM film 
+WHERE rental_rate=2.99 ;
+```
+### 4 
+```sql
+SELECT count( distinct(replacement_cost)) FROM film 
+WHERE length>150 ;
+```
