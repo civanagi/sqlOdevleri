@@ -5,7 +5,7 @@
 [ÖDEV 4](https://github.com/civanagi/sqlOdevleri/blob/main/README.md#%C3%B6dev-4)<br/>
 [ÖDEV 5](https://github.com/civanagi/sqlOdevleri/blob/main/README.md#%C3%B6dev-5)<br/>
 [ÖDEV 6](https://github.com/civanagi/sqlOdevleri/blob/main/README.md#%C3%B6dev-6)<br/>
-# 1. Ödev
+## 1. Ödev
 
 ### 1 
 ```sql
@@ -36,7 +36,7 @@ SELECT title, description FROM film;
    WHERE NOT length > 50 AND NOT (rental_rate=2.99 OR rental_rate=4.99 );
 ```
 
-# 2. Ödev
+## 2. Ödev
 
 ### 1
 ```sql
@@ -56,7 +56,7 @@ select * from film
 where (rental_rate in (0.99,2.99,4.99)) and (replacement_cost in (12.99, 15.99 , 28.99) ) ;
 ```
 
-# 3. Ödev
+## 3. Ödev
 
 ### 1 
 ```sql
@@ -79,7 +79,7 @@ select * from film
 where title like 'C%' and length>90 and rental_rate=2.99 ;
 ```
 
-# 4. Ödev
+## 4. Ödev
 
 ### 1
 ```sql
@@ -105,7 +105,7 @@ select count(*) from city
 where city ilike '%r';
 ```
 
-# 5. Ödev
+## 5. Ödev
 
 ### 1
 ```sql
@@ -129,7 +129,7 @@ where store_id=1
 order by last_name desc
 limit 4;
 ```
-# 6. Ödev
+## 6. Ödev
 
 ### 1
 ```sql
